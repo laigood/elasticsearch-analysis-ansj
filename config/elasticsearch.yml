@@ -1,0 +1,8 @@
+index:
+  analysis:
+    analyzer:
+      ansj:
+          alias: [news_analyzer_ansj,ansj_analyzer]
+          type: org.elasticsearch.index.analysis.AnsjAnalyzerProvider
+          
+index.analysis.analyzer.default.type : "ansj"
