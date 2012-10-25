@@ -1,8 +1,9 @@
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
 /data
-/work
 /logs
-/.idea
 /target
-/out
-.DS_Store
-*.iml
